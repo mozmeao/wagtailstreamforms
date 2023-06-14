@@ -152,7 +152,7 @@ class BaseField:
 
         Override this to provide additional fields in the StreamField.
 
-        :return: The ``wagtail.core.blocks.StructBlock`` to be used in the StreamField
+        :return: The ``wagtail.blocks.StructBlock`` to be used in the StreamField
         """
         return blocks.StructBlock(
             [
